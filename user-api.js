@@ -12,15 +12,13 @@ const { resolveSoa } = require('dns');
 var htmlToPDF = fs.readFileSync('./views/pdf.html','utf8');
 ObjectId = require('mongodb').ObjectID;
 
-    //key_id: 'rzp_test_yQUpJ9NOuz50ve',
-    //key_secret: 'ICNKyz1WwED4IUNhb12OgVGu'
-razor_key = 'rzp_live_HBsAG1DLWCctVK';
-//razor_key = 'rzp_test_yQUpJ9NOuz50ve';
-//razorpay
+    
+razor_key = 'rzp_live_HBsAG1WLdCctVK';
+
 let Razorpay=require('razorpay');
 const RazorpayConfig={
-    key_id: 'rzp_live_HBsAG1DLWCctVK',
-    key_secret: 'MRgAIEkkW4szBiDUC9dWXjrM'
+    key_id: 'rzp_live_HBsAG1WLdCctVK',
+    key_secret: 'MRgAG1kkW4szBiDUC9dWXjrM'
 }
 
 testRouter.use(exp.json());
