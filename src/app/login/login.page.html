@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div>
+    <ion-item>
+      <ion-label position="floating">Are you a Participant.?</ion-label><br>
+      <ion-button size="small" expand="full" (click)="loginp()">Signin</ion-button>
+    </ion-item>
+  </div><br><hr><br>
+  <div>
+    <ion-item>
+      <ion-label position="floating">Are you an Organizer.?</ion-label><br>
+      <ion-button size="small" expand="full" (click)="loginr()">LogIn</ion-button>
+    </ion-item>
+  </div>
+</ion-content>
